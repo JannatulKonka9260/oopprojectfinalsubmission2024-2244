@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gozyaan.AccountOfficerDashboardController">
+   <children>
+      <Button layoutX="73.0" layoutY="85.0" mnemonicParsing="false" onAction="#Monitorfundonclick" prefHeight="26.0" prefWidth="158.0" text="Monitor Fund" />
+      <Button layoutX="73.0" layoutY="150.0" mnemonicParsing="false" onAction="#sendInvoiceonclick" prefHeight="26.0" prefWidth="158.0" text="Send Invoices" />
+      <Button layoutX="73.0" layoutY="218.0" mnemonicParsing="false" onAction="#Paymentonclick" prefHeight="26.0" prefWidth="158.0" text="Payment" />
+      <Button layoutX="73.0" layoutY="289.0" mnemonicParsing="false" onAction="#BillsButtonOnClick" prefHeight="26.0" prefWidth="158.0" text="Bills" />
+      <Button layoutX="384.0" layoutY="85.0" mnemonicParsing="false" onAction="#ManageExpensesButtonOnClick" prefHeight="26.0" prefWidth="146.0" text="Manage Expenses" />
+      <Button layoutX="384.0" layoutY="150.0" mnemonicParsing="false" onAction="#taxregonclick" prefHeight="26.0" prefWidth="146.0" text="Tax regulation" />
+      <Button layoutX="384.0" layoutY="218.0" mnemonicParsing="false" onAction="#financialreportonclick" prefHeight="26.0" prefWidth="146.0" text="Financial Report" />
+      <Button layoutX="384.0" layoutY="289.0" mnemonicParsing="false" onAction="#viewbudgetissueonclick" prefHeight="26.0" prefWidth="146.0" text="View Budget Issue" />
+      <Button layoutX="254.0" layoutY="342.0" mnemonicParsing="false" onAction="#BackButttonOnClick" prefHeight="26.0" prefWidth="80.0" text="Back" />
+      <Label layoutX="174.0" layoutY="41.0" prefHeight="26.0" prefWidth="186.0" text="DashBoard Of Account Officer">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
